@@ -13,7 +13,7 @@
     </li>
     <li>
     	<!-- personal -->
-       <a href="#">Personal</a>
+       <a href="#"> <i class="fas fa-user"></i> &nbsp; Personal</a>
 
        <ul class="menu vertical nested">
         	<li><a href="<?= site_url('persona/salarios') ?>">Niveles salariales</a></li>
