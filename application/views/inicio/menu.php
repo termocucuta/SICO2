@@ -2,15 +2,17 @@
 	<li class="menu-text">
 		<img src="<?= base_url('assets/img/termotecnica.png') ?>" width="100">
 		</li>
+
     <li>
         
-       <a href="#">Proyectos</a>
+       <a href="#"> <i class="fas fa-project-diagram"></i> &nbsp; Proyecto</a>
 
        <ul class="menu vertical nested">
             <li><a href="<?= site_url('proyectos/proyecto') ?>">Proyectos</a></li>
             
         </ul>
     </li>
+
     <li>
     	<!-- personal -->
        <a href="#"> <i class="fas fa-user"></i> &nbsp; Personal</a>
@@ -23,25 +25,24 @@
             <li><a href="<?= site_url('persona/itempersonal') ?>">Item de personal</a></li>
         </ul>
     </li>
+
     <li>
-        <a href="#">Equipos</a>
+        <a href="#"> <i class="fas fa-cogs"></i> &nbsp; Equipo</a>
         <ul class="menu vertical nested">
             <li><a href="<?= site_url('equipo/equipos') ?>">Equipos</a></li>
             <li><a href="<?= site_url('equipo/itemequipos') ?>">Item de equipos</a></li>
         </ul>
     </li>
-    <li><a href="#">Material</a>
+
+    <li><a href="#"> <i class="fas fa-cubes"></i> &nbsp; Material</a>
         <ul class="menu vertical nested">
             <li><a href="<?= site_url('materiales/itemmaterial') ?>">Item de material</a></li>            
         </ul>
     </li>
-
-
-
-    <li><a href="#">Items varios</a></li>
+   
     <li>
         
-        <a href="#">Actividades</a>
+        <a href="#"> <i class="fas fa-clipboard"></i> &nbsp; Actividad</a>
         <ul class="menu vertical nested">
             <li><a href="<?= site_url('Actividad/add') ?>">Item de Actividad</a></li>
             
