@@ -16,6 +16,7 @@
        <a href="#"> <i class="fas fa-user"></i> &nbsp; Personal</a>
 
        <ul class="menu vertical nested">
+            <li><a href="<?= site_url('persona/tabla_salarial') ?>">Tablas salariales</a></li>
         	<li><a href="<?= site_url('persona/salarios') ?>">Niveles salariales</a></li>
         	<li><a href="<?= site_url('persona/nomina') ?>">Nominas por año</a></li>
         	<li><a href="<?= site_url('persona/cargos') ?>">Cargos de personal</a></li>
