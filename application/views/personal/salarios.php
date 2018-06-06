@@ -1,29 +1,35 @@
-<form>
-	<div class="callout">
-		<div class="grid-x grid-padding-x">
-			<legend class="col small-12 medium-12 large-12"><h4>Formulario nivel salarial</h4> </legend>
-			<div><button class="button" data-open="personalModal">Seleccionar proyecto</button></div>
-			<table>
-			<thead>
-				<tr>
-					<th>Proyecto</th>
-					<th>N° Contrato</th>
-					<th>Cliente</th>
-					<th>Ejecutor</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>Ej: Mantenimiento OCL</td>
-					<td>Ej: MA0894564</td>
-					<td>Ej: Ecopetrol</td>
-					<td>Ej: Termotecnica</td>
-				</tr>
-				
-			</tbody>
-		</table>
+<div>
+	<button class="button"  data-open="form_agregar_salario"><i class="fas fa-plus"></i></button>
+
+
+	<section class="reveal full" id="form_agregar_salario" data-reveal>
+
+		<br>
+		<div class="callout">
+			<div class="grid-x grid-padding-x">
+				<legend class="col small-12 medium-12 large-12"><h4>Formulario nivel salarial</h4> </legend>
+				<div><button class="button" data-open="personalModal">Seleccionar proyecto</button></div>
+				<table>
+				<thead>
+					<tr>
+						<th>Proyecto</th>
+						<th>N° Contrato</th>
+						<th>Cliente</th>
+						<th>Ejecutor</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Ej: Mantenimiento OCL</td>
+						<td>Ej: MA0894564</td>
+						<td>Ej: Ecopetrol</td>
+						<td>Ej: Termotecnica</td>
+					</tr>
+					
+				</tbody>
+			</table>
+			</div>
 		</div>
-	</div>
 
 		<div class="grid-x grid-padding-x">
 			<div class="cell small-12 medium-12 large-3">
@@ -45,6 +51,12 @@
 				<br><input  type="submit" class="button" name="" value="Guardar">
 			</div>
 		</div>
+
+		<button class="close-button" data-close aria-label="Close reveal" type="button">
+    		<span aria-hidden="true">&times;</span>
+  		</button>
+		
+	</section>
 	
 	<div class="callout">
 		<table class="hover">
@@ -100,7 +112,7 @@
 	
 
 
-</form>
+</div>
 
 
 

@@ -24,6 +24,13 @@ class Persona extends CI_Controller {
 		// Llamo a la plantilla
 		$this->load->view("inicio/principal", array("html"=> $html));
 	}
+	public function tabla_salarial()
+	{
+		// llamo a mi vista
+		$html = $this->load->view('personal/tabla_salarial', array(), TRUE);
+		// Llamo a la plantilla
+		$this->load->view("inicio/principal", array("html"=> $html));
+	}
 	public function salarios()
 	{
 		// llamo a mi vista
