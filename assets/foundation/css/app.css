@@ -2,3 +2,13 @@
 table, table tr td, table tr th{
 	border: 1px solid #ddd;
 }
+.off-canvas{
+	background: #FFF;
+}
+.off-canvas ul li{
+	border-bottom: 1px solid #CCC;
+}
+.top-bar, .top-bar ul {
+    background-color: #FFF;
+    border-bottom: #14679E;
+}
