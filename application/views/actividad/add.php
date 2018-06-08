@@ -2,8 +2,8 @@
 	<div class="callout">
 		<div class="grid-x grid-padding-x">
 			<legend class="cell"><h4>Formulario de actividad (APU)</h4></legend>
-			<div class="cell small-1 medium-1 large-1"><button class="button" data-open="personalModal">Adicionar</button></div>
-			<div class="cell small-1 medium-1 large-1"><button class="button" data-open="personalModal">Modificar</button></div>
+			<div><button class="button" data-open="personalModal">Adicionar</button> &nbsp;
+			<button class="button" data-open="personalModal">Modificar</button></div>
 		</div>	
 
 		<div class="grid-x grid-padding-x">

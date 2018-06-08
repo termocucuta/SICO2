@@ -92,8 +92,8 @@
 
 	<legend class="col small-12 medium-12 large-12"><h4>Adicción / Modificación salario mínimo y porcentaje prestacional</h4> </legend>
 			<div class="grid-x grid-padding-x">
-				<div class="cell small-3 medium-3 large-1"><button class="button" data-open="personalModal">Adicionar</button></div>
-				<div class="cell small-3 medium-3 large-1"><button class="button" data-open="personalModal">Modificar</button></div>
+				<div> <button class="button" data-open="personalModal">Adicionar</button> &nbsp;
+				<button class="button" data-open="personalModal">Modificar</button></div>
 				</div>
 			
 			<div class="grid-x grid-padding-x">		
@@ -114,7 +114,9 @@
 		
 	
 	<legend class="col small-12 medium-12 large-12"><h4>Cargue masivo</h4> </legend>		
-	<div><button class="button" data-open="personalModal">Cargue masivo</button></div>
+	<div><button class="button" data-open="personalModal">Plantilla</button> &nbsp;
+	<button class="button" data-open="personalModal">Cargue masivo</button></div>
+	
 	
 
 

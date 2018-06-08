@@ -197,7 +197,6 @@
 			</div>
 			<div>
 				<br><input  type="submit" class="button" name="" value="Adicionar">
-				<input  type="submit" class="button" name="" value="Cargue masivo">
 			</div>
 		</div>	
 
@@ -220,7 +219,7 @@
 					<td></td>
 					<td></td>
 					<td></td>
-					<td></td>
+					<td><button class="button warning" data-open="form_agregar_salario"> <i class="fas fa-exchange-alt"></i></td>
 				</tr>
 				<tr>
 					<td>002</td>
@@ -280,12 +279,18 @@
 		
 	</section>
 	
+</div>
+
+	<legend class="col small-12 medium-12 large-12"><h4>Cargue masivo tabla salarial</h4> </legend>		
+	<div><button class="button" data-open="personalModal">Plantilla</button> &nbsp;
+	<button class="button" data-open="personalModal">Cargue masivo</button></div>
+
 	
 
 
 			
 
 
-</div>
+
 
 	
