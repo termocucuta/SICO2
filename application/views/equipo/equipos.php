@@ -42,8 +42,8 @@
 		</div>
 				
 		<div class="grid-x grid-padding-x">	
-			<div class="cell small-3 medium-3 large-2"><label>Valor equipo operativo: </label> <input type="number" name=""></div>
-			<div class="cell small-3 medium-3 large-2"><label>Valor equipo disponible: </label> <input type="number" name=""></div>
+			<div class="cell small-3 medium-3 large-2"><label>Costo operativo: </label> <input type="number" name=""></div>
+			<div class="cell small-3 medium-3 large-2"><label>Costo disponible: </label> <input type="number" name=""></div>
 			<div class="cell small-3 medium-3 large-3"><label>Referencia propietario: </label> <input type="text" name=""></div>
 		</div>
 	</div>
